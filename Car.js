@@ -12,7 +12,7 @@
 // include accelerate and decelerate
 // these should take one argument, the speed, and add or substract it the from the current speed
 
-class Car {
+module.exports = class Car {
 	constructor (color, convertible){
 		this.color = color;
 		this.convertible = convertible;
@@ -27,3 +27,5 @@ class Car {
 		this.speed-=d;
 	}
 }
+
+
